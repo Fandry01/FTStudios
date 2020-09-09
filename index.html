@@ -4,12 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
 </head>
 <body>
+    <!--header-->
+    <section id="header">
+        <div class="header fill">
+            <div class="navbars">
+                <div class="brand">
+                    <a href="#hero"><h1 id="spantext"><span>FT</span>studio</h1></a>
+                </div>
+                <div class="navlist">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#home" data-after="Home">Home</a></li>
+                        <li><a href="#services" data-after="Service">Services</a></li>
+                        <li><a href=""data-after="Projecten">Projecten</a></li>
+                        <li><a href="#about"data-after="About us">About us</a></li>
+                        <li><a href="#contact"data-after="Contacts">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end header--> 
     <!-- Hero Section -->
+    <a name="home"></a>
     <section id="hero">
-        <div class="hero container">
+        <div class="hero fill">
             <div>
                 <h1>FT is an web/app studio</h1>
                 <a href="#" type="button" class="cta">Contact</a>
@@ -17,14 +43,263 @@
         </div>
     </section>
     <!-- End Hero Section -->
+<div class="content">
+    <a name="about"></a>
+    <!--About us-->
+   <section class="story">
+       <div class="container-fluid">
+           <div class="section-data">
+               <div class="row">
+                   <div class="col-md-2"></div>
+                       <div class="col-md-2 section-index wow fadeInUp" data-wow-delay="0.3s">0</div>
+                       <div class="col-md-8 section-heading wow fadeInUp" data-wow-delay="0.4s">About us</div>
+               </div>
 
-    <!--Services-->
-    <section id="services">
-        <div class="service container">
-            
+               <div class="row">
+                   <div class="col-md-4"></div>
+                   <div class="col-md-6 section-subheading wow fadeInUp"data-wow-delay="0.5s"><h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       Nemo ten</h1></div>
+               </div>
+
+               <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-6 section-info wow fadeInUp"data-wow-delay="0.6s">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam ad necessitatibus sed deserunt vitae labore aperiam natus molestias itaque nemo. 
+                    Laboriosam saepe natus hic corporis aperiam excepturi beatae cupiditate nobis?</div>
+               </div>
+
+               <div class="row">
+               <div class="col-md-4"></div>
+                <div class="col-md-8 more wow fadeInUp" data-wow-delay="0.7s">
+                    <button id="btn">Know more</button>
+                </div>
+           </div>
+       </div>
+   </section>
+    <!--Einde Services-->
+    <!--start services section-->
+    <a name="services"></a>
+    <section class="services">
+        <div class="container-fluid">
+            <div class="section-data">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                       <div class="col-md-2 section-index wow fadeInUp" data-wow-delay="0.3s">1</div>
+                       <div class="col-md-8 section-heading wow fadeInUp" data-wow-delay="0.4s">What we do</div>
+                </div>
+                <div class="row service">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="icon">
+                            <ion-icon name="finger-print"></ion-icon>
+                        </div>
+                        <div class="icon-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ea. 
+                            Cum qui laudantium,
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="icon">
+                            <ion-icon name="link"></ion-icon>
+                        </div>
+                        <div class="icon-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ea. 
+                            Cum qui laudantium,
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row service">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="icon">
+                            <ion-icon name="cloud-upload"></ion-icon>
+                        </div>
+                        <div class="icon-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ea. 
+                            Cum qui laudantium,
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="icon">
+                            <ion-icon name="share"></ion-icon>
+                        </div>
+                        <div class="icon-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ea. 
+                            Cum qui laudantium,
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end services section-->
+    <!--brief-->
+    <section class="newsletter">
+        <div class="containerclass">
+            <div class="row">
+                 <div class="col-md-12">
+                     <div class="news-data">
+                     <div class="section-subheading">
+                         <h1 class="wow fadeInUp" data-wow-delay="0.3s">Subscribe to newsletter</h1>
+                     </div>
+
+                     <div class="input-group wow fadeInUp" data-wow-delay="0.3s">
+                         <input type="email" class="form-control"
+                         placeholder="enter your email">
+                         <span class="input-group-btn">
+                             <button class="btn" type="submit"> Subscribe</button>
+                         </span>
+                     </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <!--einde brief-->
+    <!--contact-->
+
+    <a name="contact"></a>
+
+    <section class="contact">
+
+        <div class="row">
+            <div class="col-md-2"></div>
+                <div class="col-md-2 section-index wow fadeInUp" data-wow-delay="0.3s">3</div>
+                <div class="col-md-8 section-heading"> get in contact with us</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-6 icon-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quod ad similique vel sapiente harum repudiandae totam porro officiis rem ipsa dolorum cumque quisquam nam, 
+                neque laboriosam explicabo eos quos deserunt!</div>
         </div>
 
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-6">
+                <form action="" name="contact-form" id="contact-form" 
+                method="POST">
+                <ul>
+                    <li>
+                        <label for="contact-name">Name:</label>
+                        <div class="textarea">
+                            <input type="text" name="contact-name" 
+                            id="contact" value="" required >
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <label for="contact-email">Email:</label>
+                        <div class="textarea">
+                            <input type="email" name="contact-email" 
+                            id="contact-email" value="" required >
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <label for="contact-email">Message:</label>
+                        <div class="textarea">
+                        <textarea name="contact-project" id="contact-project" 
+                        rows="6" required></textarea>
+                    </div>
+                    </li>
+                </ul>
+                <button type="submit"   name="contact-submit"
+                id="contact-submit" class="send">Send message</button>
+                
+            </form>
+            </div>
+        </div>
     </section>
-    <!--Einde Services-->
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="info">
+                <div class="row">
+                    <div class="col-md-4" id="address">
+                        <p>waar je ons kunt vinden</p>
+                        <h4>*Amsterdam</h4>
+                        <h4>The bims</h4>
+                        <h4>1107 AM </h4>
+
+                        <br><br>
+
+                    </div>
+                    <div class="col-md-4" id="media">
+                        <ul>
+                            <li><ion-icon name="logo-facebook"></ion-icon></li>
+                            <li><ion-icon name="logo-instagram"></ion-icon></li>
+                            <li><ion-icon name="logo-youtube"></ion-icon></li>
+                        </ul>
+
+                        <br><br>
+
+                    </div>
+                    <div class="col-md-4" id="email">
+                        <p>neem contact met ons op</p>
+                        <h4>info@ftstudio.com</h4>
+
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--endfooter-->
+</div>
+    <script src="./app.js"></script>
+ <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+<script>
+
+$(function(){
+    $(document).scroll(function(){
+        var $nav = $(".navbars");
+        $nav.toggleClass('scrolled',$(this).scrollTop() > $nav.height());
+    });
+});
+
+new WOW().init();
+
+        // Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+    </script>
 </body>
 </html>
